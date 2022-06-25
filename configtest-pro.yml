@@ -1,1 +1,11 @@
-a啊啊啊
+#服务端口
+server.port=8096
+#服务应用名称
+spring.application.name=config
+#服务注册的 URL
+eureka.client.service-url.defaultZone=http://localhost:8764/eureka/
+#配置git
+spring.cloud.config.server.git.uri=https://github.com/xdc-count/myRepository.git
+#spring.cloud.config.server.git.search-paths=config-repo
+spring.cloud.config.server.git.username=xdc-count
+spring.cloud.config.server.git.password=xdc121430.
